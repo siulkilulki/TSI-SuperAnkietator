@@ -16,6 +16,7 @@ Do following to start working on latest SuperAnkietator version.
         git remote add origin https://github.com/siulkilulki/TSI-SuperAnkietator.git
         git fetch --all
         git reset --hard origin/master
+        git branch -u origin/master
 6. Copy `wp-config.php` attached to email message into `[xampp_root_dir]/htdocs/wordpress/` directory
 7. Run xampp.
     On linux it's following command from <xampp_root_dir>:
@@ -25,18 +26,6 @@ Do following to start working on latest SuperAnkietator version.
     or
     * run `\xampp\xampp_start.exe` (to stop run `\xampp\xampp_stop.exe`)
 8. In your browser, go to [http://localhost/wordpress/](http://localhost/wordpress/). If you see website titled *Zwierzaki Domowe* everything is ok, you can start working with wordpress.
-
-
-
-Wordpress credentials:
-   login/username: developer
-   password: devcomputerinafridge
-
-Mail (not sure if needed for anything, but yea its our TSI-SuperAnkietator mail):
-    website: http://easy.com/free-email
-    mail: tsi@easy.com
-    login: tsi
-    password: developer
 
 Database is hosted on Heroku ClearDB MySQL.
 Here is link to heroku git: [https://git.heroku.com/tsi-database.git](https://git.heroku.com/tsi-database.git)
