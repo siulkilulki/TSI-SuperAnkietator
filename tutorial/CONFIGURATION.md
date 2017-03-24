@@ -25,9 +25,7 @@ Do following to start working on latest SuperAnkietator version.
     * run `\xampp\xampp-control.exe` and then use *xampp-control* interface
     or
     * run `\xampp\xampp_start.exe` (to stop run `\xampp\xampp_stop.exe`)
-8. In your browser, go to [http://localhost/wordpress/](http://localhost/wordpress/). If you see website titled *Zwierzaki Domowe* everything is ok, you can start working with wordpress.
-
-Database is hosted on Heroku ClearDB MySQL.
-Here is link to heroku git: [https://git.heroku.com/tsi-database.git](https://git.heroku.com/tsi-database.git)
-
-I have added **Adam Filipowicz** and **Radek Kapłon** as collaborators so they can have access to database hosting service.
+8. If xampp is correctly installed you should be able to see following screen at adress [http://localhost/dashboard/](http://localhost/dashboard/)
+![dashboard](dashboard.png)
+9. In your browser, go to [http://localhost/wordpress/](http://localhost/wordpress/). If you see following website, you are good to go.
+![wordpress_site](wordpress_site.png)
