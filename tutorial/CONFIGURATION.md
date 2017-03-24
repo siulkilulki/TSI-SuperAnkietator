@@ -3,14 +3,15 @@
 Do following to start working on latest SuperAnkietator version.
 
 1. Install **XAMPP** from [link](https://www.apachefriends.org/index.html)
-Note: We need XAMPP MySQL and phpMyAdmin so if you are on windows be sure they are checked.
+
+>> Note: We need **XAMPP MySQL** and **phpMyAdmin** so if you are on windows be sure they are checked.
 2. Download **Wordpress** from [link](https://wordpress.org/latest.zip)
-Note: XAMPP root directory is probably named:
-    * `\xampp\` on windows
-    * `/lampp/` on linux
+
+>> Note: XAMPP root directory is probably named`\xampp\` on windows, `/lampp/` on linux.
 3. Extract wordpress to `[xampp_root_dir]/htdocs/` so that directory structure looks like `[xampp_root_dir]/htdocs/wordpress/[wordpress_files]`
 4. Go into `/htdocs/wordpress` directory
 5. Do following git commands:
+
         git init
         git remote add origin https://github.com/siulkilulki/TSI-SuperAnkietator.git
         git fetch --all
