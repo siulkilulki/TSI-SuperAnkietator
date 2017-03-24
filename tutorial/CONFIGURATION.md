@@ -27,5 +27,5 @@ Do following to start working on latest SuperAnkietator version.
     * run `\xampp\xampp_start.exe` (to stop run `\xampp\xampp_stop.exe`)
 8. If xampp is correctly installed you should be able to see following screen at adress [http://localhost/dashboard/](http://localhost/dashboard/)
 ![dashboard](dashboard.png)
-9. In your browser, go to [http://localhost/wordpress/](http://localhost/wordpress/). If you see following website, you are good to go.
+9. In your browser, go to [http://localhost/wordpress/](http://localhost/wordpress/). If you see following website, you are ready to work.
 ![wordpress_site](wordpress_site.png)
