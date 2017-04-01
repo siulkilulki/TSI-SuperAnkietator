@@ -24,8 +24,8 @@ if(!class_exists('SgPopupBuilderConfig')) {
 			define('SG_APP_POPUP_JS', SG_APP_POPUP_PATH . '/javascript');
 			define('SG_APP_POPUP_HELPERS', SG_APP_POPUP_PATH . '/helpers/');
 			define('SG_APP_POPUP_TABLE_LIMIT', 15);
-			define('SG_POPUP_VERSION', 2.55);
-			define('SG_POPUP_PRO_VERSION', 3.25);
+			define('SG_POPUP_VERSION', 2.56);
+			define('SG_POPUP_PRO_VERSION', 3.26);
 			define('SG_POPUP_PRO_URL', 'http://popup-builder.com/');
 			define('SG_POPUP_EXTENSION_URL', 'http://popup-builder.com/extensions');
 			define('SG_MAILCHIMP_EXTENSION_URL', 'http://popup-builder.com/downloads/mailchimp/');

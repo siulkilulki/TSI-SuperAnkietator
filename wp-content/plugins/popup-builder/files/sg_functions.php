@@ -13,15 +13,9 @@ class SGFunctions
 
 	public static function sgPopupDataSanitize($sgPopupData)
 	{
-
-		$allowedHtmltags = wp_kses_allowed_html('post');
-		$allowedHtmltags['input'] = array('name'=>true, 'class'=>true, 'id'=>true, 'placeholder'=>true, 'title'=>true, 'value'=>true, 'type'=>true, 'src'=>true);
-		$allowedHtmltags['select'] = array('name'=>true, 'class'=>true, 'id'=>true, 'placeholder'=>true, 'title'=>true, 'size'=>true, 'multiple'=>true, 'disabled'=>true,'autofocus'=>true);
-		$allowedHtmltags['option'] = array('value'=>true, 'class'=>true, 'id'=>true, 'placeholder'=>true, 'selected'=>true, 'label'=>true, 'disabled'=>true);
-		$allowedHtmltags['link'] = array('href'=>true, 'charset'=>true, 'hreflang'=>true, 'media'=>true, 'rel'=>true, 'rev'=>true, 'sizes'=>true,'type'=>true);
-		$allowedHtmltags['script'] = array('src'=>true, 'type'=>true, 'async'=>true, 'charset'=>true);
-		$allowedHtmltags['style'] = array('type'=>true, 'media'=>true, 'scoped'=>true);
-		return wp_kses($sgPopupData, $allowedHtmltags);
+		/*Remove iframe tag and empty line*/
+		$pattern = '/\s+(<iframe.*?>.*?<\/iframe>)/';
+		return preg_replace($pattern, '', $sgPopupData);
 	}
 
 	public static function getPopupsDataList($restrictParams = array()) {

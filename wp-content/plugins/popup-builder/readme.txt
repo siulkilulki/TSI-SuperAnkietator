@@ -2,7 +2,7 @@
 Plugin Name: Popup
 Contributors: Sygnoos, Popup By Sygnoos
 Author: Sygnoos
-Donate link: http://popup-builder.com
+Donate link: https://popup-builder.com
 Tags: popup, restriction popup, exit intent popup, subscription popup
 Requires at least: 3.8
 Tested up to: 4.7.3
@@ -158,6 +158,9 @@ Go to the Popup Builder settings and set your desired options.
 13. Facebook popup
 
 == Changelog ==
+
+= Version 2.5.6 =
+* Improvements of the HTML sanitization.
 
 = Version 2.5.4 - 2.5.5 =
 * Security update.
